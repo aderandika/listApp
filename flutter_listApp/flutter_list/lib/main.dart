@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_list/config/app_colors.dart';
+import 'package:flutter_list/pages/auth/register_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -38,11 +39,7 @@ class MainApp extends StatelessWidget {
           ),
         ),
       ),
-      home: Scaffold(
-        body: Center(
-          child: Text('List App'),
-        ),
-      ),
+      home: RegisterPage(),
     );
   }
 }

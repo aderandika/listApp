@@ -1,6 +1,6 @@
 class AppConstants {
   // Nama aplikasi
-  static const appname = 'List App';
+  static const appName = 'List App';
 
   /// Host = _host = 'http://192.168.197.254:8000'
   static const _host = 'http://192.168.197.254:8000';
